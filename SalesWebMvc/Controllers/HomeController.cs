@@ -17,7 +17,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "SalesWebMvc Testes";
+            ViewData["developer"] = "Allisson Filipe";
 
             return View();
         }
@@ -29,7 +30,7 @@ namespace SalesWebMvc.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult ccc()
         {
             return View();
         }
